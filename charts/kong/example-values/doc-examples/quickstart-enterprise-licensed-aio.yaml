@@ -105,7 +105,7 @@ env:
   password:
     valueFrom:
       secretKeyRef:
-        key: kong_admin_password
+        key: kong-admin-password
         name: kong-config-secret
   pg_database: kong
   pg_host:
